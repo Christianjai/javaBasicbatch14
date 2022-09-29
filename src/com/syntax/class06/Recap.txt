@@ -1,0 +1,30 @@
+Java Class 6
+
+Logical AND && - all conditions must be true for logical AND
+Logical OR || - at least one condition must be true for 
+Logical NOT ! - 
+
+Compiler always checks our code before giving it to JAVA to execute it.
+Compiler can initialize variables to its default values:
+- int =0;
+- double=0.0;
+- boolean=false;
+- String and other non primitive=null;
+
+
+SWITCH CASE - Statement executes one statement from multiple values/condition
+
+SYNTAX
+
+switch (variable) {
+
+	case value1:
+		code A;
+		break;
+	case value2:
+		code B;
+		break;
+	default:
+		code C;
+		break;
+}		

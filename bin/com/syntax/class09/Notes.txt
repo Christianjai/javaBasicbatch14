@@ -1,0 +1,29 @@
+Recap of class 08 (loops)
+
+break and continue; 
+
+break - break/exits loop block
+continue - skips current execution/iteration
+
+nested loop - loop inside another loop
+
+ for (int i=1; i<4; i++) {
+ 	for (int j=0; j<=2; j++)
+ 		System.out.println(i+" ")
+ 	}
+ _______________________________________
+ 	
+ for (int i=1; i<4; i++) {
+ 	for (int j=0; j<=2; j++) {
+ 		System.out.println("Hello");
+ 		break;
+ 	}
+ 	System.out.println("Bye");
+ }
+ 
+ ^ try this on ecplise
+ ______________________________________
+ 
+ CLASS 9
+ 
+ Arrays in Java -

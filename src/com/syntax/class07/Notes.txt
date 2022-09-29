@@ -1,0 +1,94 @@
+RECAP FOR LAST WEEK:
+
+switch syntax:
+
+switch (variable) {
+
+case value1:
+	code A;
+	break;
+case value2:
+	code B;
+	break;
+default:
+	code C;
+	break;		
+}
+LIMITATIONS:
+	data type: cant work with double,float,long & boolean
+	operators:: cant work with logical an relational
+
+______________________________________________________________________
+	
+LOOPS -
+
+while loop
+
+System.out.println("good morning");
+System.out.println("good morning");
+System.out.println("good morning");
+System.out.println("good morning");
+System.out.println("good morning");
+
+int time=11;
+
+if (time<12) {
+	System.out.println("good morning");  //going to print it 1 time
+}
+
+while (time<12) {
+	System.out.println("good morning"); //will print it out infinitly
+}
+
+while loop syntax:
+
+while (boolean condition) {
+
+}
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+do while loop
+
+do while loop syntax:
+
+do {
+	code to be repeated;
+} while (boolean condition)	
+
+_while vs. do while --> both loops executed while conditions are true
+
+while loop first CHECK condition -> if true --> executes code
+do while first EXECUTES code --> then checks condition
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+for loop
+
+for loop syntax:
+
+for (initialization; condition; increment/decrement) {
+	
+	code to be repeated;
+}
+
+// Hello 5 times
+
+for (int i=1; i<=5; i++) {
+
+	System.out.println("Hello");
+}
+
+_______________________________________________________________
+
+When to use which loop?:
+
+When we know in advance how many times to repeat block of code
+USE _FOR_
+
+When we don't know in advance how many times to repeat block of 
+USE _WHILE_ OR _DO WHILE_
+
+
+
+

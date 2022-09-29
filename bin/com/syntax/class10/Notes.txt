@@ -1,0 +1,34 @@
+RECAP OF ARRAY
+
+array - container object that holds multiple values of the same type
+
+how to create and use an array?
+
+int[] nums=new int[4];
+
+nums[0]=10;
+nums[0]=100;
+
+System.out.prinln(nums[1]); // answer is 0 (by default)
+System.out.prinln(nums[4]); //RuntimeError: ArrayIndexOutOfBoundException:4
+
+nums.length -> tells how many elements
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+How to get all elements from an array?
+
+for (int i=0; i<nums.length; i++) {
+	System.out.println(nums[i]);
+}
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Advanced for loop works only when we work with array or collection
+- it loops only one direction
+
+for (int num:nums) {
+	System.out.println(num);
+}
+
+____________________________________________________________________
+
+2D Array - int[][] -its a array of arrays

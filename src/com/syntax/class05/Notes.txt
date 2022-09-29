@@ -1,0 +1,18 @@
+Logical Operators
+
+Assigment operator: =
+Arithmetic: +, - , *, /, %
+Relational: >, >=, <, <=, ==, !=
+Logical: and &&, or ||, not !
+
+Logical AND &&
+- true && true -> TRUE
+- true && false -> FALSE
+- false && true -> FALSE
+- false && false -> FALSE
+
+Logical OR ||
+- true || true -> TRUE
+- true || false -> TRUE
+- false || true -> TRUE
+- false || false -> FALSE

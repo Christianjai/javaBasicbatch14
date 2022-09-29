@@ -1,0 +1,29 @@
+Switch statement
+
+SWITCH CASE - the switch statement tests the equality of a variable against multiple values.
+IT IS similar to if else if conditions,Its much cleaner code, its my preferred code, its faster than the if conditions
+because  switch expression is evaluated once.
+A switch works with the byte, short, integer, char and String.
+LIMITATIONS for switch case are:
+	for data types: double,float,long & boolean
+	and for operators: logical and relational
+
+
+
+The value of the expression is compared with the values of each case.
+The switch statement can have a number of possible execution paths.
+
+For example:
+If there is a match, the associated block of code is executed.
+If there is no match, the default code block is executed.
+
+-The value for a case must be of the same data type as the variable in the switch. ( so if switch is integer data type, case must be also integer)
+-Duplicate case values are not allowed in switch statement.
+-The break statement is used inside the switch to terminate a statement sequence.
+-The default statement is also used in switch cases, it is optional and can appear anywhere inside the switch block, but usually it's placed at the end
+ and preferably used with the break statement aswell.
+-In case, if it is not at the end, then a break statement _must be kept_ after the default statement to omit the execution of the next case statement.
+
+
+______________________________________________________________________________________________
+
